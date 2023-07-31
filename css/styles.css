@@ -119,6 +119,7 @@ Hero section
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.02em;
+  line-height: 1.07;
 }
 
 .button-index {
@@ -161,11 +162,16 @@ Hero section
 .title-offer,
 .title-team {
   font-size: 36px;
+  letter-spacing: 0.02em;
   font-weight: 700;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: var(--color-navy-blue);
+}
+
+.team-list {
+  background-color: var(--color-white);
 }
 
 .section-team {
