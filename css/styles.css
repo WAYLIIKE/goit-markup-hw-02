@@ -64,7 +64,9 @@ header {
 }
 
 .header-nav:hover,
-.header-adress:hover {
+.header-adress:hover,
+.header-nav:focus,
+.header-adress:focus {
   color: #404bbf;
 }
 
@@ -110,25 +112,31 @@ Hero section
 *******************************************/
 
 .section-hero {
+  font-size: 56px;
   background-color: var(--color-navy-blue);
   color: var(--color-white);
   font-weight: 700;
-  font-size: 56px;
   line-height: 60px;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .button-index {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   background-color: var(--color-iris);
   /*box-shadow: 0px 4px 4px 0px #00000026;
   padding: 16px 32px;
   border-radius: 4px;*/
   border: none;
-  letter-spacing: 0.04px;
+  letter-spacing: 0.04em;
   color: var(--color-white);
+  cursor: pointer;
 }
 
-.button-index:hover {
+.button-index:hover,
+.button-index:focus {
   background-color: #404bbf;
 }
 
@@ -140,6 +148,8 @@ Hero section
 
 .title-benefits {
   font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
 
@@ -151,8 +161,8 @@ Hero section
 .title-offer,
 .title-team {
   font-size: 36px;
-  line-height: 40px;
   font-weight: 700;
+  line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: var(--color-navy-blue);
@@ -173,18 +183,23 @@ Portfolio.html
 *******************************************/
 
 .button-portfolio {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   border: 1px solid;
   border-color: #e7e9fc;
   /*border-radius: 4px;
   padding: 12px 24px;*/
   background-color: var(--color-cloud);
   color: #4d5ae5;
-  letter-spacing: 0.04px;
+  letter-spacing: 0.04em;
   text-align: center;
   font-weight: 500;
+  cursor: pointer;
 }
 
-.button-portfolio:hover {
+.button-portfolio:hover,
+.button-portfolio:focus {
   color: var(--color-white);
   border: none;
   background-color: #404bbf;
@@ -198,6 +213,7 @@ Portfolio.html
 
 .photo-title {
   color: var(--color-navy-blue);
+  letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
