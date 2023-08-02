@@ -81,7 +81,7 @@ header {
 Footer section
 *******************************************/
 
-footer {
+.footer {
   background-color: var(--color-navy-blue);
 }
 
