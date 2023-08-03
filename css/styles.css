@@ -18,10 +18,7 @@ Base styles
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   font-size: 16px;
-  letter-spacing: 0.02em;
-  line-height: 24px;
   color: var(--color-slate);
   background-color: var(--color-white);
 }
@@ -38,11 +35,6 @@ body {
 /*******************************************
 Header section
 *******************************************/
-
-header {
-  border: 1px solid;
-  border-color: #e7e9fc;
-}
 
 .logo-header {
   font-family: 'Raleway', sans-serif;
@@ -61,6 +53,7 @@ header {
 .header-nav {
   color: var(--color-navy-blue);
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .header-nav:hover,
@@ -72,9 +65,8 @@ header {
 
 .header-adress {
   color: var(--color-slate);
-  font-weight: 400;
-  font-style: normal;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 /*******************************************
@@ -87,7 +79,8 @@ Footer section
 
 .footer-text {
   color: var(--color-cloud);
-  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
 }
 
 .footer-logo {
@@ -119,7 +112,6 @@ Hero section
   font-size: 56px;
   color: var(--color-white);
   font-weight: 700;
-  line-height: 60px;
   text-align: center;
   letter-spacing: 0.02em;
   line-height: 1.07;
@@ -152,12 +144,14 @@ Hero section
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.17;
   color: var(--color-navy-blue);
 }
 
 .text-benefits {
   color: var(--color-slate);
-  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .title-offer,
@@ -182,7 +176,8 @@ Hero section
 
 .text-team {
   color: var(--color-slate);
-  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 /*******************************************
@@ -206,23 +201,19 @@ Portfolio.html
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--color-white);
-  border: none;
   background-color: #404bbf;
 }
-
-/**.photo-box {
-  border: 1px solid;
-  border-color: #e7e9fc;
-}**/
 
 .photo-title {
   color: var(--color-navy-blue);
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.17;
 }
 
 .photo-text {
   color: var(--color-slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
