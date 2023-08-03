@@ -54,6 +54,7 @@ Header section
   color: var(--color-navy-blue);
   letter-spacing: 0.02em;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 .header-nav:hover,
@@ -67,6 +68,7 @@ Header section
   color: var(--color-slate);
   letter-spacing: 0.02em;
   line-height: 1.5;
+  font-style: normal;
 }
 
 /*******************************************
@@ -79,7 +81,7 @@ Footer section
 
 .footer-text {
   color: var(--color-cloud);
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -140,14 +142,6 @@ Hero section
 |====================================
 */
 
-.title-benefits {
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.17;
-  color: var(--color-navy-blue);
-}
-
 .text-benefits {
   color: var(--color-slate);
   line-height: 1.5;
@@ -159,9 +153,17 @@ Hero section
   font-size: 36px;
   letter-spacing: 0.02em;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+
+.title-benefits {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
   color: var(--color-navy-blue);
 }
 
@@ -209,7 +211,7 @@ Portfolio.html
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.17;
+  line-height: 1.2;
 }
 
 .photo-text {
